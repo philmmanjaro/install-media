@@ -1,8 +1,8 @@
 # install-media
-Build the ChimeraOS installation media.
+Build the Manjaro gaming recovery media.
 
 ## How to build
-There are two methods of building the installation media for ChimeraOS. From an Arch based system or from a Docker container.
+There are two methods of building the installation media for Manjaro Gaming. From an Arch based system or from a Docker container.
 
 ### Arch based systems
 On Arch the following packages will need to be installed:
@@ -32,19 +32,19 @@ To start building, use the following command:
 ## Files and directories
 Here a short explaination of what which files and directories do.
 
-### chimeraos
-Contains the modified archiso profile for ChimeraOS.
+### Manjaro
+Contains the modified archiso profile for Manjaro Gaming.
 
-### chimeraos/pacman.conf
+### Manjaro/pacman.conf
 The pacman configuration during the creation of the installation media. Repositories can be added here.
 
-### chimeraos/packages.x86_64
+### Manjaro/packages.x86_64
 A list of packages which are installed on the installation media during creation.
 
-### chimeraos/airootfs
+### Manjaro/airootfs
 Files which are added to the filesystem of the installation media's root file system.
 
-### chimeraos/airootfs/root/customize_airootfs.sh
+### Manjaro/airootfs/root/customize_airootfs.sh
 This script runs in the live enviroment before it is put on the installation media. Allowing configuration changes.
 
 ### docker/Dockerfile
