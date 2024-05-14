@@ -17,7 +17,7 @@ fi
 
 #######################################
 
-gamescope -- /usr/bin/manjaro-installer-gd
+gamescope -- /opt/manjaro/manjaro-installer-gd/manjaro-installer-gd
 
 bash -i
 

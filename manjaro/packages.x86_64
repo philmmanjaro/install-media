@@ -31,7 +31,6 @@ syslinux
 usbutils
 wget
 zsh
-frzr
 networkmanager
 libva-intel-driver
 libva-vdpau-driver
