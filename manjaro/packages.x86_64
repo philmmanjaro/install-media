@@ -46,3 +46,7 @@ mesa-vdpau
 vulkan-intel
 vulkan-radeon
 vulkan-tools
+
+manjaro-installer-gd
+plymouth
+plymouth-theme-manjaro
