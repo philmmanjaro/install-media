@@ -1,12 +1,12 @@
 #!/usr/bin/env bash
 # shellcheck disable=SC2034
 
-iso_name="chimeraos"
-iso_label="CHIMERAOS_$(date +%Y%m)"
-iso_publisher="ChimeraOS <https://github.com/ChimeraOS>"
-iso_application="ChimeraOS Installer"
+iso_name="manjaro"
+iso_label="MANJARO_RECOVERY_$(date +%Y%m)"
+iso_publisher="Manjaro <https://manjaro.org>"
+iso_application="Manjaro Recovery Media"
 iso_version=$(date +%Y.%m.%d)
-install_dir="arch"
+install_dir="manjaro"
 buildmodes=('iso')
 bootmodes=('bios.syslinux.mbr' 'bios.syslinux.eltorito' 'uefi-x64.systemd-boot.esp' 'uefi-x64.systemd-boot.eltorito')
 arch="x86_64"

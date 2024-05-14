@@ -17,7 +17,7 @@ fi
 
 #######################################
 
-gamescope -- ./chimeraos-installer.x86_64
+gamescope -- /usr/bin/manjaro-installer-gd
 
 bash -i
 

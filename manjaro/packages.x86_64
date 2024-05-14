@@ -18,8 +18,7 @@ git
 intel-ucode
 jq
 libnewt
-linux-chimeraos
-linux-chimeraos-headers
+linux69
 linux-firmware
 mkinitcpio
 mkinitcpio-archiso
