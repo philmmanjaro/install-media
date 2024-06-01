@@ -19,6 +19,7 @@ intel-ucode
 jq
 libnewt
 linux69
+linux69-headers
 linux-firmware
 mkinitcpio
 mkinitcpio-archiso
